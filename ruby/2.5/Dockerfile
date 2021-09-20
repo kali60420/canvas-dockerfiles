@@ -2,7 +2,7 @@
 # To update this file please edit the relevant template and run the generation
 # task `rake generate:ruby`
 
-FROM instructure/core:bionic
+FROM cawdery/core:bionic
 MAINTAINER Instructure
 
 ENV RUBY_MAJOR 2.5

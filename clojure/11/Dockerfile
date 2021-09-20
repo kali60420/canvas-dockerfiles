@@ -2,7 +2,7 @@
 # To update this file please edit the relevant template and run the generation
 # task `rake generate:clojure`
 
-FROM instructure/java:11
+FROM cawdery/java:11
 
 USER root
 

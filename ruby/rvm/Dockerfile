@@ -1,4 +1,4 @@
-FROM instructure/core:xenial
+FROM cawdery/core:xenial
 MAINTAINER Instructure
 
 USER root

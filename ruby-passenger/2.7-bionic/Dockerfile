@@ -2,7 +2,7 @@
 # To update this file please edit the relevant template and run the generation
 # task `rake generate:ruby-passenger`
 
-FROM instructure/ruby:2.7-bionic
+FROM cawdery/ruby:2.7-bionic
 MAINTAINER Instructure
 
 USER root

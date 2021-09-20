@@ -2,7 +2,7 @@
 # To update this file please edit the relevant template and run the generation
 # task `rake generate:node-pm2`
 
-FROM instructure/node:12
+FROM cawdery/node:12
 MAINTAINER Instructure
 
 USER root

@@ -1,4 +1,4 @@
-FROM alpine
+FROM arm32v7/alpine
 
 RUN apk add --no-cache \
   gnupg

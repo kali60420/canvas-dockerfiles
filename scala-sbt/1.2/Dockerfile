@@ -2,7 +2,7 @@
 # To update this file please edit the relevant template and run the generation
 # task `rake generate:scala-sbt`
 
-FROM instructure/java:8-xenial
+FROM cawdery/java:8-xenial
 MAINTAINER Instructure Engineering
 USER root
 

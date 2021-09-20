@@ -1,6 +1,6 @@
-FROM instructure/tini:latest as tini
+FROM cawdery/tini:latest as tini
 
-FROM ubuntu:bionic
+FROM arm32v7/ubuntu:bionic
 MAINTAINER Instructure
 
 ENV DEBIAN_FRONTEND=noninteractive
