@@ -2,13 +2,13 @@
 # To update this file please edit the relevant template and run the generation
 # task `rake generate:golang`
 
-FROM instructure/core:focal
+FROM cawdery/core:focal
 MAINTAINER Instructure
 
 USER root
 
 ENV GOLANG_VERSION 1.17.1
-ENV GOLANG_DOWNLOAD_URL https://storage.googleapis.com/golang/go$GOLANG_VERSION.linux-amd64.tar.gz
+ENV GOLANG_DOWNLOAD_URL https://storage.googleapis.com/golang/go$GOLANG_VERSION.linux-armhf.tar.gz
 ENV GOLANG_DOWNLOAD_SHA256 dab7d9c34361dc21ec237d584590d72500652e7c909bf082758fb63064fca0ef
 
 RUN curl -fsSL "$GOLANG_DOWNLOAD_URL" -o golang.tar.gz \

@@ -2,7 +2,7 @@
 # To update this file please edit the relevant template and run the generation
 # task `rake generate:node`
 
-FROM instructure/core:xenial
+FROM cawdery/core:xenial
 LABEL maintainer="Instructure"
 
 USER root

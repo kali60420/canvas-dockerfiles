@@ -2,11 +2,11 @@
 # To update this file please edit the relevant template and run the generation
 # task `rake generate:graalvm-ce`
 
-FROM instructure/core:focal
+FROM cawdery/core:focal
 
 USER root
 
-ENV GRAALVM_PKG=https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-19.3.5/graalvm-ce-java11-linux-amd64-19.3.5.tar.gz \
+ENV GRAALVM_PKG=https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-19.3.5/graalvm-ce-java11-linux-arm64-19.3.5.tar.gz \
     GRAALVM_PKG_SHA256=4936cdf48cd501e9df7ff41929774bd1cd88aecb41c3fbf2c970b29c340bbc95 \
     JAVA_HOME=/opt/graalvm-ce-java11-19.3.5
 

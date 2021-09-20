@@ -2,7 +2,7 @@
 # To update this file please edit the relevant template and run the generation
 # task `rake generate:node-passenger`
 
-FROM instructure/node:14
+FROM cawdery/node:14
 MAINTAINER Instructure
 
 USER root

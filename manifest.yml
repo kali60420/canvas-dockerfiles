@@ -67,7 +67,7 @@ core:
 
 golang:
   defaults:
-    base_image: instructure/core:bionic
+    base_image: cawdery/core:bionic
   versions:
     '1.13':
       full_version: '1.13.15'
@@ -81,11 +81,11 @@ golang:
     '1.16':
       full_version: '1.16.2'
       package_sha: '542e936b19542e62679766194364f45141fde55169db2d8d01046555ca9eb4b8'
-      base_image: 'instructure/core:focal'
+      base_image: 'cawdery/core:focal'
     '1.17':
       full_version: '1.17.1'
       package_sha: 'dab7d9c34361dc21ec237d584590d72500652e7c909bf082758fb63064fca0ef'
-      base_image: 'instructure/core:focal'
+      base_image: 'cawdery/core:focal'
 
 graalvm-ce:
   defaults:
@@ -128,13 +128,13 @@ java:
 node: &NODE
   defaults:
     base_distro: bionic
-    base_image: instructure/core:bionic
+    base_image: cawdery/core:bionic
     npm_version: latest
     yarn_version: latest
   versions:
     '8-xenial':
       base_distro: xenial
-      base_image: instructure/core:xenial
+      base_image: cawdery/core:xenial
       node_version: '8'
       npm_version: '5.10.0'
       yarn_version: '0.27.5-1'
@@ -145,7 +145,7 @@ node: &NODE
     '14':
       node_version: '14'
       base_distro: focal
-      base_image: instructure/core:focal
+      base_image: cawdery/core:focal
 
 node-passenger:
   <<: *NODE
@@ -153,27 +153,27 @@ node-passenger:
 node-pm2:
   defaults:
     base_distro: bionic
-    base_image: instructure/node:12
+    base_image: cawdery/node:12
   versions:
     '8-xenial':
       base_distro: xenial
-      base_image: instructure/node:8-xenial
+      base_image: cawdery/node:8-xenial
     '10':
-      base_image: instructure/node:10
+      base_image: cawdery/node:10
     '12':
-      base_image: instructure/node:12
+      base_image: cawdery/node:12
     '14':
-      base_image: instructure/node:14
+      base_image: cawdery/node:14
       base_distro: focal
 
 php: &PHP
   defaults:
-    base_image: instructure/core:bionic-slim
+    base_image: cawdery/core:bionic-slim
   versions:
     '7.3-focal':
-      base_image: instructure/core:focal
+      base_image: cawdery/core:focal
     '7.3':
-      base_image: instructure/core:bionic
+      base_image: cawdery/core:bionic
     '7.3-slim': {}
 
 php-nginx:
@@ -184,7 +184,7 @@ php-nginx:
 
 python: &PYTHON
   defaults:
-    base_image: instructure/core:bionic
+    base_image: cawdery/core:bionic
   versions:
     '3.7':
       python_version: 3.7.5
@@ -195,7 +195,7 @@ python: &PYTHON
 ruby: &RUBY
   defaults:
     base_distro: bionic
-    base_image: instructure/core:bionic
+    base_image: cawdery/core:bionic
     bundler_version: 1.17.3
     rubygems_version: 2.7.11
   versions:
@@ -203,12 +203,12 @@ ruby: &RUBY
     '2.6':
     '2.7-bionic':
       base_distro: bionic
-      base_image: instructure/core:bionic
+      base_image: cawdery/core:bionic
       bundler_version: 2.2.6
       rubygems_version: 3.2.6
     '2.7':
       base_distro: focal
-      base_image: instructure/core:focal
+      base_image: cawdery/core:focal
       bundler_version: 2.2.6
       rubygems_version: 3.2.6
 
@@ -240,7 +240,7 @@ ruby-passenger:
 
 scala-sbt:
   defaults:
-    base_image: instructure/java:8-xenial
+    base_image: cawdery/java:8-xenial
   template_files:
     - Dockerfile
     - sbt-private
@@ -250,7 +250,7 @@ scala-sbt:
       minor_version: '1.2'
       major_version: '1.0'
     '1.3':
-      base_image: instructure/java:11
+      base_image: cawdery/java:11
       full_version: '1.3.3'
       minor_version: '1.3'
       major_version: '1.0'

@@ -2,13 +2,13 @@
 # To update this file please edit the relevant template and run the generation
 # task `rake generate:golang`
 
-FROM instructure/core:bionic
+FROM cawdery/core:bionic
 MAINTAINER Instructure
 
 USER root
 
 ENV GOLANG_VERSION 1.13.15
-ENV GOLANG_DOWNLOAD_URL https://storage.googleapis.com/golang/go$GOLANG_VERSION.linux-amd64.tar.gz
+ENV GOLANG_DOWNLOAD_URL https://storage.googleapis.com/golang/go$GOLANG_VERSION.linux-arm64.tar.gz
 ENV GOLANG_DOWNLOAD_SHA256 01cc3ddf6273900eba3e2bf311238828b7168b822bb57a9ccab4d7aa2acd6028
 
 RUN curl -fsSL "$GOLANG_DOWNLOAD_URL" -o golang.tar.gz \
