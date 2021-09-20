@@ -2,7 +2,7 @@
 # To update this file please edit the relevant template and run the generation
 # task `rake generate:python`
 
-FROM instructure/core:bionic
+FROM cawdery/core:bionic
 MAINTAINER Instructure Engineering
 USER root
 

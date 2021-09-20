@@ -1,6 +1,6 @@
-FROM instructure/tini:latest as tini
+FROM cawdery/tini:latest as tini
 
-FROM ubuntu:focal
+FROM arm32v7/ubuntu:focal
 MAINTAINER Instructure
 
 ENV DEBIAN_FRONTEND=noninteractive
