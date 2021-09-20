@@ -3,7 +3,7 @@
 # task `rake generate:appliances/postgres`
 
 # Use a multi-stage build, first one just builds our plugins. They both use same source though
-FROM postgres:10
+FROM arm32v7/postgres:10
 MAINTAINER Instructure
 
 USER root

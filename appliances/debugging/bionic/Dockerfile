@@ -1,4 +1,4 @@
-FROM ubuntu:bionic
+FROM arm32v7/ubuntu:bionic
 
 USER root
 

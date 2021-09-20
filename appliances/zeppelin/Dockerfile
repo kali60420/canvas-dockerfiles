@@ -1,4 +1,4 @@
-FROM instructure/spark:2.1-hadoop2.7
+FROM cawdery/spark:2.1-hadoop2.7
 
 ENV ZEPPELIN_VERSION 0.7.0
 

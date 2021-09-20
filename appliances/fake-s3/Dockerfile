@@ -1,4 +1,4 @@
-FROM instructure/ruby:2.5
+FROM cawdery/ruby:2.5
 
 USER root
 

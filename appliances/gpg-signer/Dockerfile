@@ -1,4 +1,4 @@
-FROM instructure/core:bionic-slim
+FROM cawdery/core:bionic-slim
 
 VOLUME /to-sign
 

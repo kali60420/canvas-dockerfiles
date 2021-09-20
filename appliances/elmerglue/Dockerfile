@@ -1,4 +1,4 @@
-FROM node:10-alpine
+FROM arm32v7/node:10-alpine
 MAINTAINER Instructure
 
 RUN apk add --no-cache make gcc g++ python \

@@ -1,4 +1,4 @@
-FROM instructure/node:10
+FROM arm32v7/node:10
 MAINTAINER Instructure
 
 ENV DATADIR /var/lib/kinesalite

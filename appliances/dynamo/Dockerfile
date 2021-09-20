@@ -1,4 +1,4 @@
-FROM instructure/java:11-jre
+FROM cawdery/java:11-jre
 
 WORKDIR /home/docker
 ENV DATADIR /var/lib/dynamo

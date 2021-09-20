@@ -1,4 +1,4 @@
-FROM instructure/ruby:2.5
+FROM arm32v7/ruby:2.5
 MAINTAINER Instructure
 
 USER docker

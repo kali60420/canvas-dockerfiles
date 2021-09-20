@@ -1,4 +1,4 @@
-FROM ruby:2.5-alpine
+FROM arm32v7/ruby:2.5-alpine
 MAINTAINER Instructure
 
 COPY Gemfile Gemfile.lock ./
