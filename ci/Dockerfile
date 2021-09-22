@@ -1,4 +1,4 @@
-FROM arm32v7/ruby:alpine
+FROM ruby:alpine
 
 RUN apk --no-cache add git \
  && gem install bundler

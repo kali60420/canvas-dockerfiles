@@ -1,4 +1,4 @@
-FROM arm32v7/ubuntu:xenial
+FROM ubuntu:xenial
 
 USER root
 

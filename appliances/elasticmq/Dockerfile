@@ -1,4 +1,4 @@
-FROM arm32v7/openjdk:8-jre-alpine
+FROM openjdk:8-jre-alpine
 
 RUN apk add --no-cache curl
 RUN curl -sSLO https://s3-eu-west-1.amazonaws.com/softwaremill-public/elasticmq-server-0.14.7.jar

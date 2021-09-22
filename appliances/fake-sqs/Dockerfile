@@ -1,4 +1,4 @@
-FROM arm32v7/ruby:2.5-alpine
+FROM ruby:2.5-alpine
 
 RUN gem install fake_sqs -v 0.4.3
 

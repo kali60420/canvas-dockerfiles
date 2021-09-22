@@ -1,4 +1,4 @@
-FROM arm32v7/openjdk:11-jre-slim
+FROM openjdk:11-jre-slim
 
 MAINTAINER Zach Wily <zach@instructure.com>
 
